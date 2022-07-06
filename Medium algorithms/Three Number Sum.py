@@ -12,7 +12,6 @@ target_sum = 0
 """
 
 # O(n^2)) time | O(n) space - where n is the length of the input array
-
 def three_number_sum(array, target):
     array.sort()
 

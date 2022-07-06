@@ -1,5 +1,5 @@
 """
-Function that takes in an array of integers and returns the lenght of the longest peak in the array.
+Function that takes in an array of integers and returns the length of the longest peak in the array.
 A peak is defined as adjacent integers in the array that are strictly increasing until they reach a tip
 (the highest value in the peak), at which point they become strictly decreasing. At least three integers are required
 to form a peak.
@@ -9,8 +9,8 @@ array = [1, 2, 3, 3, 4, 0, 10, 6, 5, -1, -3, 2, 3]      |   6 // 0, 10, 6, 5, -1
 """
 
 
-# O(n) time | O(1) space - where n is the lenght of the input array
-def longest_peak(array: []) -> int:
+# O(n) time | O(1) space - where n is the length of the input array
+def longest_peak(array: [int]) -> int:
     longest_peak_length = 0
     i = 1
 

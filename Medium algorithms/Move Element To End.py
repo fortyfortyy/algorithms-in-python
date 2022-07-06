@@ -8,8 +8,8 @@ Funcion perform this in place (mutate the input array) and doesn't need to maint
 array = [2, 1, 2, 2, 2, 3, 4, 2]        |    [1, 3, 4, 2, 2, 2, 2, 2]
 to_move = 2
 """
-# O(n) time | O(1) space - where n is the length of the array
 
+# O(n) time | O(1) space - where n is the length of the array
 def move_element_to_end(array, toMove):
     left = 0
     right = len(array) - 1

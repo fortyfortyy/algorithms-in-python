@@ -13,8 +13,8 @@ array = [                                       |   [1, 2, 3, 4, 5, 6, 7, 8, 9, 
   [10, 9, 8, 7]
 ]
 """
-# O(n) time | O(n) space where n is the total number of elements in the array
 
+# O(n) time | O(n) space where n is the total number of elements in the array
 def spiral_traverse(array):
     startRow, endRow = 0, len(array) - 1
     startCol, endCol = 0, len(array[0]) - 1

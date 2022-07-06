@@ -17,7 +17,7 @@ queries = [3, 2, 1, 2, 6]   |            17
 """
 
 # O(nlog(n)) time | O(1) space - where n is the number of queries
-def minimum_waiting_time(queries):
+def minimum_waiting_time(queries) -> int:
     queries.sort()
 
     total_waiting_time = 0

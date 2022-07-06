@@ -7,7 +7,9 @@ Sample Input            |       Sample Output
 string = "abcdcaf"      |           1    # the first non-repeating character is "b" and is found at index 1
 """
 
-def first_non_repeating_character(string):
+# O(n) time | O(1) space - where n is the length of the input string. The constant space is because the input string
+# only has lowercase English-alphabet letters; thus, hash table will never have more than 26 character frequencies.
+def first_non_repeating_character(string) -> int:
     letters = {}
 
     for letter in string:
@@ -18,5 +20,6 @@ def first_non_repeating_character(string):
             return idx
 
     return -1
+
 
 print(first_non_repeating_character("abcdcaf"))

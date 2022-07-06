@@ -21,7 +21,7 @@ class BinaryTree:
 
 # First Solution (recursive algorithm)
 # O(n) time | O(h) space - where n is the number of the nodes in the Binary Tree and h is the height of the Binary Tree
-def node_depths(root, sums=0):
+def node_depths(root, sums=0) -> int:
     if root is None:
         return 0
 

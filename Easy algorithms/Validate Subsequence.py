@@ -11,7 +11,6 @@ sequence = [1, 6, -1, 10]                  |
 
 
 # O(n) time | O(1) space - where n is the length of the array
-# First Solution
 def is_valid_subsequence(array, sequence):
     arr_idx = 0
     seq_idx = 0
@@ -24,7 +23,6 @@ def is_valid_subsequence(array, sequence):
     return seq_idx == len(sequence)
 
 # # O(n) time | O(1) space - where n is the length of the array
-# # Second Solution
 # def is_valid_subsequence(array, sequence):
 #     seq_idx = 0
 #

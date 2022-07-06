@@ -10,16 +10,6 @@ array_to_check = [3, 5, -4, 8, 11, 1, -1, 6]   |      [-1, 11] # the numbers cou
 target = 10                                    |
 """
 
-
-# O(n^2) time | O(1) space - the slowest performance
-# def two_number_sum(array, target_sum):
-#     for idx, number in enumerate(array):
-#         for idx2, number2 in enumerate(array):
-#             if number + number2 == target_sum and idx != idx2:
-#                 return [number, number2]
-#     return []
-
-
 # O(n) time | O(n) space - the fastest performance
 def two_number_sum(array, target_sum):
     nums = {}
@@ -31,6 +21,13 @@ def two_number_sum(array, target_sum):
 
     return []
 
+# O(n^2) time | O(1) space - the slowest performance
+# def two_number_sum(array, target_sum):
+#     for idx, number in enumerate(array):
+#         for idx2, number2 in enumerate(array):
+#             if number + number2 == target_sum and idx != idx2:
+#                 return [number, number2]
+#     return []
 
 # # O(nlog(n)) | O(1) space - the average performance
 # def two_number_sum(array, target_sum):

@@ -9,7 +9,8 @@ characters = "agig tepo rrleP xnlkldan nkiaewa!"     |     "True"
 document = "People are walking and talking!"          |
 """
 
-
+# O(n + m) time | O(c) space - where n is the number of characters, m is the length of the document and c is the number
+# of unique characters in the characters string
 def generate_document(characters, document):
     available_characters = {}
 

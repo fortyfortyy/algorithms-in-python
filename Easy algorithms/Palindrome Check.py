@@ -7,7 +7,7 @@ string = 'abcdcba'         |            true
 """
 
 # O(n) time | O(1) space
-def is_palindrome(string):
+def is_palindrome(string) -> bool:
     return string == string[::-1]
 
 

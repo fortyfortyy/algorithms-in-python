@@ -14,6 +14,7 @@ class LinkedList:
         self.next = None
 
 
+# O(n) time | O(1) space - where n is the number of nodes in the Linked List
 def remove_duplicates_from_linked_list(linked_list):
     current_node = linked_list
 

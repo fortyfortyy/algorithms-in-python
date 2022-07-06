@@ -15,8 +15,8 @@ array = [5, 2, [7, -1], 3, [6, [-13, 8], 4]]    |            12     # calculated
 """
 
 # O(n) time | O(d) space - where n is the number of elements in the array,
-# including sub-elements, and d is the greatest depth of "sepcial" arrays in the array
-def product_sum(array, multiplier=1):
+# including sub-elements, and d is the greatest depth of "special" arrays in the array
+def product_sum(array, multiplier=1) -> int:
     result = 0
     for element in array:
         if isinstance(element, list):

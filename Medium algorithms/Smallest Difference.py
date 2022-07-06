@@ -14,7 +14,6 @@ array_two = [26, 134, 135, 15, 17]
 
 # O(nlog(n) + mlog(m)) time | O(1) space - where n is the lenght of the first input array
 # and m is the lenght of the second input array
-
 def smallest_difference(arrayOne, arrayTwo):
     arrayOne.sort()
     arrayTwo.sort()
@@ -43,6 +42,7 @@ def smallest_difference(arrayOne, arrayTwo):
             smallestResult = [firstNum, secondNum]
 
     return smallestResult
+
 
 array_one = [-1, 5, 10, 20, 28, 3]
 array_two = [26, 134, 135, 15, 17]

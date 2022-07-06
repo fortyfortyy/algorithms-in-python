@@ -9,7 +9,7 @@ array = [8, 5, 2, 9, 6, 3]      |      [2, 3, 5, 5 6, 8, 9]
 # Best: O(n) time | O(1) space
 # Average: O(n^2) time | O(1) space
 # Worst: O(n^2) time | O(1) space
-def insertion_sort(array):
+def insertion_sort(array) -> []:
     for i in range(1, len(array)):
         j = i
         while j > 0 and array[j] < array[j - 1]:

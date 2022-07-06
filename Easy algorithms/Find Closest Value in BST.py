@@ -36,7 +36,7 @@ def find_closest_value_in_bst(tree, target):
 # First Solution (recursive algorithm)
 # Average:  O(log(n)) time | O(log(n)) space
 # Worst:    0(n) time | O(n) space
-def find_closest_value_in_bst_helper(node, target, closest):
+def find_closest_value_in_bst_helper(node, target, closest) -> int:
     if node is None:
         return closest
 

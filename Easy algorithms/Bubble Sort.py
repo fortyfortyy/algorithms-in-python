@@ -6,10 +6,10 @@ Sample Input                    |       Sample Output
 array = [8, 5, 2, 9, 6, 3]      |      [2, 3, 5, 5 6, 8, 9]
 """
 
-# Best: O(n) time | O(1) space
-# Average: O(n^2) time | O(1) space
-# Worst: O(n^2) time | O(1) space
-def bubble_sort(array):
+# Best: O(n) time | O(1) space - where n is the length of the input array
+# Average: O(n^2) time | O(1) space - where n is the length of the input array
+# Worst: O(n^2) time | O(1) space - where n is the length of the input array
+def bubble_sort(array: [int]) -> []:
     lenth_array = len(array)
     while lenth_array > 0:
         for idx in range(len(array) - 1):
