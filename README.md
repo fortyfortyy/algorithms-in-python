@@ -1,14 +1,12 @@
 <h2 align="center"> Welcome to my algorithm repo section!</h2>
-<p>
-  I'm currently learning the way to write the highest performance algorithms, from easy to very hard level. 
-</p>
 
+I'm currently learning the way to write the highest performance algorithms, from easy to very hard level. <br>
+Please check out the folders where are placed algorithms based on its level of complication.
 ```diff
-  @@ Every module is written in Python and has complexity analysis. @@
+@@                             Every module is written in Python and has complexity analysis.                                   @@
 ```
-<p>
-  Please check out the folders where are placed algorithms based on its level of complication.
-</p>
+
+
 
 <br>
 <h2 align="center"> Example of the algorithm </h2>
@@ -16,5 +14,5 @@
   <img src="https://i.imgur.com/iYb4qse.png" width="80%" height="80%">
 </p>
 
-Higly recommend you to check out this awesome website
-[AlgoExpert](https://www.algoexpert.io/product)
+
+Higly recommend you to check out this awesome website [AlgoExpert](https://www.algoexpert.io/product)
