@@ -6,5 +6,5 @@ Please check out the folders where are placed algorithms based on its level of d
 
 
 
-Higly recommend to you to check out this awesome website 
+Higly recommend you to check out this awesome website 
 [AlgoExpert](https://www.algoexpert.io/product)
