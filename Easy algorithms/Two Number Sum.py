@@ -12,27 +12,27 @@ target = 10                                    |
 
 
 # O(n^2) time | O(1) space - the slowest performance
-def two_number_sum(array, target_sum):
-    for idx, number in enumerate(array):
-        for idx2, number2 in enumerate(array):
-            if number + number2 == target_sum and idx != idx2:
-                return [number, number2]
-    return []
-
-
-# # O(n) time | O(n) space - the average performance
 # def two_number_sum(array, target_sum):
-#     nums = {}
-#     for num in array:
-#         potential_number = target_sum - num
-#         if potential_number in nums:
-#             return [potential_number, num]
-#         nums[num] = True
-#
+#     for idx, number in enumerate(array):
+#         for idx2, number2 in enumerate(array):
+#             if number + number2 == target_sum and idx != idx2:
+#                 return [number, number2]
 #     return []
 
 
-# # O(nlog(n)) | O(1) space - the fastest performance
+# O(n) time | O(n) space - the fastest performance
+def two_number_sum(array, target_sum):
+    nums = {}
+    for num in array:
+        potential_number = target_sum - num
+        if potential_number in nums:
+            return [potential_number, num]
+        nums[num] = True
+
+    return []
+
+
+# # O(nlog(n)) | O(1) space - the average performance
 # def two_number_sum(array, target_sum):
 #     array.sort()
 #     left = 0
