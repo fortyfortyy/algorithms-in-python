@@ -3,7 +3,7 @@
 I'm currently learning the way to write the highest performance algorithms, from easy to very hard level. <br>
 Please check out the folders where are placed algorithms based on its level of complication.
 ```diff
-@@                             Every module is written in Python and has complexity analysis.                                   @@
+@@                   Every module is written in Python and has complexity analysis.                    @@
 ```
 
 
