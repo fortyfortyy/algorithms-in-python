@@ -15,4 +15,4 @@ Please check out the folders where are placed algorithms based on its level of c
 </p>
 
 
-Higly recommend you to check out this awesome website [AlgoExpert](https://www.algoexpert.io/product)
+Highly  recommend you to check out this awesome website [AlgoExpert](https://www.algoexpert.io/product)
